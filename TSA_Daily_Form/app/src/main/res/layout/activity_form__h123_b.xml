@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ginia.gbencivengo.tsa_daily_form.Form_H123B">
+
+    <TableLayout
+        android:id="@+id/FormH123BTableLayout"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="7dp">
+
+        <TableRow
+            android:id="@+id/FormH123B_HeaderRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/FormH123B_Header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FormH123BText"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/FormH123B_BodyRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="20pt">
+
+            <TextView
+                android:id="@+id/FormH123B_Body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:text="This form is to be completed daily" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/FormH123B_Q1Row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/FormH123B_Q1_Text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:textSize="15sp"
+                tools:text="Question 1) Is the machine functional?" />
+
+            <RadioGroup
+                android:id="@+id/FormH123B_Q1_RadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="494dp">
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q1_RadioYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RadioButtonYes" />
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q1_RadioNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RadioButtonNo" />
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/FormH123B_Q2Row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp">
+
+            <TextView
+                android:id="@+id/FormH123B_Q2_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                android:textSize="15sp"
+                tools:text="Question 2) Is the machine working properly?" />
+
+            <RadioGroup
+                android:id="@+id/FormH123B_Q2_RadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="494dp">
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q2_RadioYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RadioButtonYes" />
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q2_RadioNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RadioButtonNo" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/FormH123B_Q3Row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp">
+
+            <TextView
+                android:id="@+id/FormH123B_Q3_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                android:textSize="15sp"
+                tools:text="Question 3) Does the machine properly pick up metallic threats?" />
+
+            <RadioGroup
+                android:id="@+id/FormH123B_Q3_RadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="494dp">
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q3_RadioYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RadioButtonYes" />
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q3_RadioNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RadioButtonNo" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/FormH123B_Q4Row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp">
+
+            <TextView
+                android:id="@+id/FormH123B_Q4_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                android:textSize="15sp"
+                tools:text="Question 4) Does the machine properly pick up non-metallic threats?" />
+
+            <RadioGroup
+                android:id="@+id/FormH123B_Q4_RadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="494dp">
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q4_RadioYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RadioButtonYes" />
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q4_RadioNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RadioButtonNo" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/FormH123B_Q5Row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="75dp">
+
+            <TextView
+                android:id="@+id/FormH123B_Q5_Text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                android:textSize="15sp"
+                tools:text="Question 5) Has the machine generated any false positives? If so, state in additional information down below." />
+
+            <RadioGroup
+                android:id="@+id/FormH123B_Q5_RadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="494dp">
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q5_RadioYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/RadioButtonYes" />
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q5_RadioNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/RadioButtonNo" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/FormH123B_Q6Row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp">
+
+            <TextView
+                android:id="@+id/FormH123B_Q6_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                android:textSize="15sp"
+                tools:text="Question 6) Does the machine require any maintenance in the near future?" />
+
+            <RadioGroup
+                android:id="@+id/FormH123B_Q6_RadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="494dp">
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q6_RadioYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RadioButtonYes" />
+
+                <RadioButton
+                    android:id="@+id/FormH123B_Q6_RadioNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RadioButtonNo" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/Form123B_AnyAddInfo_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="14dp"
+        android:gravity="start"
+        android:text="@string/AnyAddInfo"
+        android:textAlignment="viewStart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FormH123BTableLayout" />
+
+    <EditText
+        android:id="@+id/FormH123B_AddInfo"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="@string/EnterAddInfo"
+        android:inputType="textMultiLine"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Form123B_AnyAddInfo_Text" />
+
+    <Button
+        android:id="@+id/Form123B_SubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SubmitButtonText"
+        android:layout_marginTop="-1dp"
+        app:layout_constraintTop_toBottomOf="@+id/FormH123B_AddInfo"
+        android:layout_marginLeft="148dp"
+        android:layout_marginStart="148dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

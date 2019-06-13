@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TSA_Daily_Form</string>
+    <string name="WelcomeText">Welcome</string>
+    <string name="LogInText">Please Log In:</string>
+    <string name="UsernameText">Username</string>
+    <string name="PasswordText">Password</string>
+    <string name="IncorrectLoginText">Incorrect Username/Password, Please try again</string>
+    <string name="LoginButtonText">Log In</string>
+    <string name="RegisterButtonText">Register</string>
+    <string name="RegistrationWelcomeText">Registration</string>
+    <string name="RegisUsername">User Name</string>
+    <string name="RegisPassword">Password</string>
+    <string name="RegisConfirmPassword">Confirm Password</string>
+    <string name="RegisGINIAID">GINIA ID</string>
+    <string name="SubmitButtonText">Submit</string>
+    <string name="PasswordsDontMatchText">The Passwords entered do not match.</string>
+    <string name="FormsWelcomeText">Forms</string>
+    <string name="FormsBodyText">Please Select the form you would like to fill out</string>
+    <string name="FormH123BText">Form H123B For Passenger Metal Detectors</string>
+    <string name="FormH124BText">Form H124B For Baggage Metal Detectors</string>
+    <string name="ViewPrevCompletedForms">View Previously Completed Forms</string>
+    <string name="RadioButtonYes">Yes</string>
+    <string name="RadioButtonNo">No</string>
+    <string name="AnyAddInfo">Any Additional Info?</string>
+    <string name="EnterAddInfo">Enter Additional Info Here!</string>
+    <string name="ViewPreviousFormsHeader">Please Select the Form you wish to look at</string>
+
+    <string-array name="Forms_Array">
+        <item>Select a Form</item>
+        <item>Form H123B For Passenger Metal Detectors</item>
+        <item>Form H124B For Baggage Metal Detectors</item>
+    </string-array>
+
+    <string-array name="Form_H123B">
+        <item>This form is to be completed daily</item>
+        <item>Question 1) Is the machine functional?</item>
+        <item>Question 2) Is the machine working properly?</item>
+        <item>Question 3) Does the machine properly pick up metallic threats?</item>
+        <item>Question 4) Does the machine properly pick up non-metallic threats?</item>
+        <item>Question 5) Has the machine generated any false positives? If so, state in additional information down below.</item>
+        <item>Question 6) Does the machine require any maintenance in the near future?</item>
+    </string-array>
+
+    <string-array name="Form_H124B">
+        <item>This form is to be completed daily</item>
+        <item>Question 1) Is the machine functional?</item>
+        <item>Question 2) Is the machine working properly?</item>
+        <item>Question 3) Does the machine properly x-ray baggage to detect threats?</item>
+        <item>Question 4) Is the EDS System operational and does it properly detect explosive threats?</item>
+        <item>Question 5) Is the bottled liquid scanners operational and does it properly detect liquid threats?</item>
+        <item>Question 6) Have any of the detection systems generated any false positives? If so, please list which system and what substance generated the trigger.</item>
+    </string-array>
+</resources>
